@@ -1,5 +1,5 @@
 {
-  "name": "JeffGepiga/dbfilebackup",
+  "name": "jeff-gepiga/dbfilebackup",
   "description": "laravel package to backup/restore files and database.",
   "license": "MIT",
   "type": "library",
@@ -10,7 +10,7 @@
       "homepage": "/"
     }
   ],
-  "homepage": "https://github.com/JeffGepiga/dbfilebackup",
+  "homepage": "https://github.com/jeff-gepiga/dbfilebackup",
   "keywords": [
     "Laravel",
     "Backup",
