@@ -1,16 +1,16 @@
 {
-  "name": "sarfraznawaz2005/backupmanager",
+  "name": "JeffGepiga/dbfilebackup",
   "description": "laravel package to backup/restore files and database.",
   "license": "MIT",
   "type": "library",
   "authors": [
     {
-      "name": "Sarfraz Ahmed",
-      "email": "sarfraznawaz2005@gmail.com",
-      "homepage": "http://codeinphp.github.io"
+      "name": "Jeffrey Gepiga",
+      "email": "jeffreygepiga27@gmail.com",
+      "homepage": "/"
     }
   ],
-  "homepage": "https://github.com/sarfraznawaz2005/backupmanager",
+  "homepage": "https://github.com/JeffGepiga/dbfilebackup",
   "keywords": [
     "Laravel",
     "Backup",
@@ -23,16 +23,16 @@
   },
   "autoload": {
     "psr-4": {
-      "Sarfraznawaz2005\\BackupManager\\": "src/"
+      "JeffGepiga\\BackupManager\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Sarfraznawaz2005\\BackupManager\\ServiceProvider"
+        "JeffGepiga\\BackupManager\\ServiceProvider"
       ],
       "aliases": {
-        "BackupManager": "Sarfraznawaz2005\\BackupManager\\Facades\\BackupManager"
+        "BackupManager": "JeffGepiga\\BackupManager\\Facades\\BackupManager"
       }
     }
   },
