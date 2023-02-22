@@ -11,8 +11,8 @@ Simple laravel package to backup/restore files and database.
 
 ## Requirements
 
- - PHP >= 5.6
- - Laravel 5
+ - PHP >= 7.4
+ - Laravel 8-10
  - `mysql` (to restore database)
  - `mysqldump` (to backup database)
  - `tar` (to backup/restore files)
@@ -25,21 +25,8 @@ Simple laravel package to backup/restore files and database.
 Via Composer
 
 ``` bash
-$ composer require sarfraznawaz2005/backupmanager
+$ composer require jeff-gepiga/dbfilebackup
 ```
-
-For Laravel < 5.5:
-
-Add Service Provider to `config/app.php` in `providers` section:
-```php
-Sarfraznawaz2005\BackupManager\ServiceProvider::class,
-```
-
-(Optional) Add Facade to `config/app.php` in `aliases` section:
-```php
-'BackupManager' => Sarfraznawaz2005\BackupManager\Facades\BackupManager::class,
-```
-
 ---
 
 Publish package's files by running below command:
