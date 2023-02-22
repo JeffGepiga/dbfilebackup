@@ -2,7 +2,7 @@
 
 Route::group(
     [
-        'namespace' => 'Sarfraznawaz2005\BackupManager\Http\Controllers',
+        'namespace' => 'JeffGepiga\BackupManager\Http\Controllers',
         'prefix' => config('backupmanager.route', 'backupmanager')
     ],
     function () {

@@ -1,12 +1,12 @@
 <?php
-namespace Sarfraznawaz2005\BackupManager\Facades;
+namespace JeffGepiga\BackupManager\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Returns instance of logged in user.
  *
- * @return \Sarfraznawaz2005\BackupManager\BackupManager
+ * @return \JeffGepiga\BackupManager\BackupManager
  */
 class BackupManager extends Facade
 {

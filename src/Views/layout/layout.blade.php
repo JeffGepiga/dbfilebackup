@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Sarfraz Ahmed (sarfraznawaz2005@gmail.com)">
+    <meta name="author" content="Sarfraz Ahmed (JeffGepiga@gmail.com)">
 
     <title>Backup Manager</title>
 

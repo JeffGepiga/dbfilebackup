@@ -1,11 +1,11 @@
 <?php
 
-namespace Sarfraznawaz2005\BackupManager;
+namespace JeffGepiga\BackupManager;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
-use Sarfraznawaz2005\BackupManager\Console\BackupCommand;
-use Sarfraznawaz2005\BackupManager\Console\BackupListCommand;
-use Sarfraznawaz2005\BackupManager\Console\BackupRestoreCommand;
+use JeffGepiga\BackupManager\Console\BackupCommand;
+use JeffGepiga\BackupManager\Console\BackupListCommand;
+use JeffGepiga\BackupManager\Console\BackupRestoreCommand;
 
 class ServiceProvider extends BaseServiceProvider
 {

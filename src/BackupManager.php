@@ -1,6 +1,6 @@
 <?php
 
-namespace Sarfraznawaz2005\BackupManager;
+namespace JeffGepiga\BackupManager;
 
 use App;
 use DB;

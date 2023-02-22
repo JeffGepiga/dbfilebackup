@@ -1,9 +1,9 @@
 <?php
 
-namespace Sarfraznawaz2005\BackupManager\Console;
+namespace JeffGepiga\BackupManager\Console;
 
 use Illuminate\Console\Command;
-use Sarfraznawaz2005\BackupManager\Facades\BackupManager;
+use JeffGepiga\BackupManager\Facades\BackupManager;
 
 class BackupListCommand extends Command
 {
