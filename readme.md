@@ -7,7 +7,7 @@ Simple laravel package to backup/restore files and database.
 
 ## Screenshot
 
-![Main Window](https://github.com/jeff-gepiga/dbfilebackup/blob/master/screen.gif?raw=true)
+![Main Window](https://github.com/jeffgepiga/dbfilebackup/blob/master/screen.gif?raw=true)
 
 ## Requirements
 
@@ -25,7 +25,7 @@ Simple laravel package to backup/restore files and database.
 Via Composer
 
 ``` bash
-$ composer require jeff-gepiga/dbfilebackup
+$ composer require jeffgepiga/dbfilebackup
 ```
 ---
 
@@ -92,10 +92,10 @@ This package was created for our needs and works for us however no guarantee is 
 
 Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/jeff-gepiga/dbfilebackup.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/jeff-gepiga/dbfilebackup.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/jeffgepiga/dbfilebackup.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/jeffgepiga/dbfilebackup.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/jeff-gepiga/dbfilebackup
-[link-downloads]: https://packagist.org/packages/jeff-gepiga/dbfilebackup
+[link-packagist]: https://packagist.org/packages/jeffgepiga/dbfilebackup
+[link-downloads]: https://packagist.org/packages/jeffgepiga/dbfilebackup
 [link-author]: https://github.com/JeffGepiga
-[link-contributors]: https://github.com/jeff-gepiga/dbfilebackup/graphs/contributors
+[link-contributors]: https://github.com/jeffgepiga/dbfilebackup/graphs/contributors
