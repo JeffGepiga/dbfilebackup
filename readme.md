@@ -7,7 +7,7 @@ Simple laravel package to backup/restore files and database.
 
 ## Screenshot
 
-![Main Window](https://github.com/sarfraznawaz2005/backupmanager/blob/master/screen.gif?raw=true)
+![Main Window](https://github.com/JeffGepiga/backupmanager/blob/master/screen.gif?raw=true)
 
 ## Requirements
 
@@ -32,7 +32,7 @@ $ composer require jeff-gepiga/dbfilebackup
 Publish package's files by running below command:
 
 ```bash
-$ php artisan vendor:publish --provider="Sarfraznawaz2005\BackupManager\ServiceProvider"
+$ php artisan vendor:publish --provider="JeffGepiga\BackupManager\ServiceProvider"
 ```
 It should publish `config/backupmanager.php.php` config file and migration file.
 
@@ -90,10 +90,10 @@ This package was created for our needs and works for us however no guarantee is 
 
 Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/sarfraznawaz2005/backupmanager.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/sarfraznawaz2005/backupmanager.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/jeff-gepiga/backupmanager.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/JeffGepiga/backupmanager.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/sarfraznawaz2005/backupmanager
-[link-downloads]: https://packagist.org/packages/sarfraznawaz2005/backupmanager
-[link-author]: https://github.com/sarfraznawaz2005
-[link-contributors]: https://github.com/sarfraznawaz2005/backupmanager/graphs/contributors
+[link-packagist]: https://packagist.org/packages/jeff-gepiga/backupmanager
+[link-downloads]: https://packagist.org/packages/JeffGepiga/backupmanager
+[link-author]: https://github.com/JeffGepiga
+[link-contributors]: https://github.com/JeffGepiga/backupmanager/graphs/contributors
