@@ -23,7 +23,7 @@ class BackupManager
     public function __construct()
     {
         $this->disk = config('backupmanager.backups.disk');
-        $this->backupPath = config('backupmanager.backups.backup_path') . DIRECTORY_SEPARATOR;
+        $this->backupPath = config('backupmanager.backups.backup_path') . "/";
         $this->backupSuffix = date(strtolower(config('backupmanager.backups.backup_file_date_suffix')));
         $this->fBackupName = "f_$this->backupSuffix.tar";
         $this->dBackupName = "d_$this->backupSuffix.gz";
@@ -46,7 +46,7 @@ class BackupManager
         $filesData = [];
         foreach ($files as $index => $file) {
             if ($file instanceof \League\Flysystem\FileAttributes) {
-                $name = $file->extraMetadata()['filename'].".".$file->extraMetadata()['extension'];
+                $name = str_replace($this->backupPath,'',$file->path());
                 $array = explode('_', $name);
                 $filesData[] = [
                     'name' => $name,
